@@ -1,0 +1,168 @@
+/* 
+* {
+    box-sizing: border-boxs;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.heading{
+    font-size: 2em;
+}
+
+.mainContent{
+    width: 600px;
+    height: 500px;
+    padding: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    background-color:darkslategrey
+}
+
+.display{
+    height: 40px;
+    margin-bottom: 60px;
+}
+#display{
+    height: 50px;
+    width: 400px;
+    border: 6px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.types{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#length{
+    color: red;
+    margin-top: 30px;
+    font-size: 25px;
+    border: 2px solid yellow;
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#length:hover{
+    background-color: rgb(37, 61, 61);
+}
+
+#generate{
+    font-size: 30px;
+    padding: 12px 12px;
+    border-style: none;
+    border-radius: 8px 12px;
+    width: 150px;
+    margin-top: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: yellow;
+}
+
+#generate:hover{
+    background-color: yellow;
+    color:black;
+}
+
+.inside-content{
+    margin-top: 10%;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .mainContent {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inside-content {
+    margin-bottom: 20px;
+  }
+  
+  .display {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .radio {
+    margin-bottom: 20px;
+  }
+  
+ #length{
+    margin-top: 20px;
+    border: 1px solid #333;
+    width: fit-content;
+    padding: 10px;
+    border-left: none;
+ }
+  
+ #length:hover{
+    background-color: #4CAF50;
+ }
+  button#generate {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  button#generate:hover {
+    background-color: z#45a049;
+  }
+  
+  button#generate:active{
+    background-color: #333;
+    font-weight: bold;
+  }

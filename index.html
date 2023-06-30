@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>StrongPass</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Make A Strong Pass</h1>
+        <p>It's super Easy !</p>
+    </div>
+
+    <div class="mainContent">
+        <div class="inside-content">
+        <div class="display">
+            <input type="text" id="display">
+        </div>
+        <div class="radio">
+            <!-- variation of pass-->
+            <div class="types">
+                <input type="radio" class="variation" name="variation" value="up_low_case" data-id="uplow">
+                <label for="variation">Uppercase & Lowercase & Number</label>
+                <br>
+                <input type="radio" class="variation" name="variation" value="mix" data-id="mix">
+                <label for="variation">Mix Symbols : $,!,*,@.</label>
+            </div>
+
+            <!-- length of pass -->
+            <div id="length">
+                <input type="radio" class="length" name="length" value="10" data-length=10>
+                <label for="length">10</label>
+
+                <input type="radio" class="length" name="length" value="14" data-length=14>
+                <label for="length">14</label>
+
+                <input type="radio" class="length" name="length" value="18" data-length=18>
+                <label for="length">18</label>
+            </div>
+        </div>
+        
+        <!-- generate button -->
+        <button id="generate">Generate</button>
+    </div>
+    </div>
+
+
+    <!-- javascript -->
+    <script src="app.js"/>
+</body>
+</html>
